@@ -25,7 +25,7 @@ $packageArgs = @{
 
   # optional
   registryUninstallerKey = 'vsvim' #ensure this is the value in the registry
-  checksum      = ''
+  checksum      = 'f41c4d97ce6e5fc61f0242fc172f88e9'
   checksumType  = 'md5' #default is md5, can also be sha1
   checksum64    = ''
   checksumType64= 'md5' #default is checksumType
