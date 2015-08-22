@@ -6,27 +6,41 @@
     <id>vsvim</id>
     <title>vsvim (Install)</title>
     <version>2.0.1.0</version>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
+    <authors>JaredPar MSFT (Jared Parsons)</authors>
     <owners>Tim Abell</owners>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay 
+    <summary>VIM emulation layer for Visual Studio</summary>
+    <description>This is a Vim Emulation layer for Visual Studio 2010 and
+above.  It integrates the familiar key binding experience of Vim directly
+into Visual Studio's editor.
+
+The full source for this project and issue tracking is available on GitHub.
+http://github.com/jaredpar/VsVim/
+
+FAQ Available: http://wiki.github.com/jaredpar/VsVim/faq
+
+Release Notes: https://github.com/jaredpar/VsVim/wiki/Release-Notes
+
+Please feel free to send any questions, comments or bug reports to @jaredpar on
+twitter.  Happy Vimming!
+
+Note: This extension is being released by Jared, not by Microsoft.
     </description>
-    <projectUrl></projectUrl>
-    <packageSourceUrl></packageSourceUrl>
+    <projectUrl>https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/</projectUrl>
+    <packageSourceUrl>https://github.com/timabell/choco-vsvim</packageSourceUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
     <mailingListUrl></mailingListUrl>
     <bugTrackerUrl></bugTrackerUrl>-->
-    <tags>vsvim admin SPACE_SEPARATED</tags>
+    <tags>visualstudio vsix vim</tags>
     <copyright></copyright>
-    <licenseUrl></licenseUrl>
+    <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/site/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/eula?licenseType=None</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/vsvim.png</iconUrl>-->
+    <iconUrl>https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/showImage/6395</iconUrl>
     <!--<dependencies>
       <dependency id="" version="__VERSION__" />
       <dependency id="" />
     </dependencies>-->
-    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
