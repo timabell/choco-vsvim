@@ -6,8 +6,8 @@ $ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageName = 'vsvim' # arbitrary name for the package, used in messages
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = '' # download url
-$url64 = '' # 64bit URL here or remove - if installer is both, use $url
+$url = 'https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/file/6390/57/VsVim.vsix' # download url
+# $url64 = '' # 64bit URL here or remove - if installer is both, use $url
 
 $packageArgs = @{
   packageName   = $packageName
