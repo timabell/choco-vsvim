@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>vsvim</id>
-    <title>vsvim (Install)</title>
+    <title>VsVim</title>
     <version>2.0.1.0</version>
     <authors>JaredPar MSFT (Jared Parsons)</authors>
     <owners>Tim Abell</owners>
