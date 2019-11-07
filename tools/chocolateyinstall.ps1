@@ -1,10 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageArgs = @{
-  packageName   = 'vsvim' # arbitrary name for the package, used in messages
-  vsixUrl       = 'https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/file/6390/57/VsVim.vsix'
-  checksum      = 'f41c4d97ce6e5fc61f0242fc172f88e9'
-  checksumType  = 'md5' #default is md5, can also be sha1
-  # vsVersion     = 14 # vs2015 - left out, by default will install to latest visual studio
+  PackageName   = $env:ChocolateyPackageName
+  VsixUrl       = 'https://jaredparmsft.gallerycdn.vsassets.io/extensions/jaredparmsft/vsvim/2.7.0.0/1559137072898/VsVim.vsix'
+  Checksum      = 'BE4A1D7EFD28C34B1BD6D8D7475C979A91DBB4077E30DED32EC5F53ACF0C1103'
+  ChecksumType  = 'sha256'
 }
-Install-ChocolateyVsixPackage @packageArgs
+Install-VisualStudioVsixExtension @packageArgs
