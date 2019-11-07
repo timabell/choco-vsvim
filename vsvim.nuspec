@@ -36,10 +36,9 @@ Note: This extension is being released by Jared, not by Microsoft.
     <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/site/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/eula?licenseType=None</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/showImage/6395</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="chocolatey-visualstudio.extension" />
+    </dependencies>
     <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
   </metadata>
